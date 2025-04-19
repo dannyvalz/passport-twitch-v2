@@ -3,14 +3,14 @@
 
 Twitch is a trademark or registered trademark of Twitch Interactive, Inc. in the U.S. and/or other countries. "passport-twitch-v2" is not operated by, sponsored by, or affiliated with Twitch Interactive, Inc. in any way.
 
-[Passport](http://passportjs.org/) strategies for authenticating with [Twitch](http://www.twitch.tv/)
+[Passport](https://passportjs.org/) strategies for authenticating with [Twitch](https://www.twitch.tv/)
 using OAuth 2.0.
 
 This module lets you authenticate using Twitch in your Node.js applications.
 By plugging into Passport, Twitch authentication can be easily and
 unobtrusively integrated into any application or framework that supports
-[Connect](http://www.senchalabs.org/connect/)-style middleware, including
-[Express](http://expressjs.com/).
+[Connect](https://github.com/senchalabs/connect)-style middleware, including
+[Express](https://expressjs.com/).
 
 ## Install
 ```bash
@@ -54,7 +54,7 @@ passport.use(new twitchStrategy({
 Use `passport.authenticate()`, specifying the `"twitch"` strategy, to
 authenticate requests.
 
-For example, as route middleware in an [Express](http://expressjs.com/)
+For example, as route middleware in an [Express](https://expressjs.com/)
 application:
 
 ```javascript
