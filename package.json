@@ -1,6 +1,6 @@
 {
   "name": "passport-twitch-v2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Passport strategy for authenticating with Twitch using OAuth 2.0 and the latest Twitch Helix API",
   "main": "./lib/passport-twitch",
   "repository": {
@@ -36,8 +36,6 @@
   },
   "homepage": "https://github.com/dannyvalz/passport-twitch-v2#readme",
   "dependencies": {
-    "oauth2": "^0.0.1",
-    "passport-oauth2": "^1.8.0",
     "pkginfo": "^0.4.1"
   }
 }
